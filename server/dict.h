@@ -1,5 +1,10 @@
 #include <stdbool.h>
 
+#define NUM_BUCKETS 4
+#define INIT_CAP 512
+#define MAX_KEY_LEN 1024 * 1024 // 1 MB
+#define MAX_VAL_LEN 1024 * 1024 // 1 MB
+
 typedef struct {
 	char* key;
 	char* value;

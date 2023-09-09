@@ -3,10 +3,6 @@
 #include <stdio.h>
 #include "dict.h"
 
-#define NUM_BUCKETS 1
-#define INIT_CAP 2
-#define MAX_KEY_LEN 256
-#define MAX_VAL_LEN 1024
 
 Dict* createDict() {
 	Dict* dict = malloc(sizeof(Dict));
